@@ -1,0 +1,3 @@
+# Preserve exact snapshot bytes so manifest hashes survive cross-platform clone.
+# All entry points are Python modules; no CRLF-sensitive shell scripts included.
+* -text

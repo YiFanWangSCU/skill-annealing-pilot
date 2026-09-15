@@ -1,0 +1,13 @@
+[project]
+name = "skill-annealing"
+version = "0.1.0"
+description = "Utilities for matched-exposure prompt internalization experiments."
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+research = ["PyYAML>=6.0,<7"]
+dev = ["pytest>=8,<9"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

@@ -1,0 +1,17 @@
+{
+  "protocol": "rule_exposure_pilot_v1",
+  "claim_id": "RULE-EXPOSURE-ADAPTATION",
+  "seed": 20260915,
+  "train_cases": 128,
+  "eval_cases": 48,
+  "arms": ["full_only", "short_only", "whole_mix", "component_mix"],
+  "gradient_accumulation_steps": 8,
+  "max_length": 2048,
+  "max_new_tokens": 48,
+  "lora_rank": 16,
+  "lora_alpha": 32,
+  "learning_rate": 0.0001,
+  "stage_timeout_seconds": 7200,
+  "campaign_timeout_seconds": 28800,
+  "bootstrap_resamples": 2000
+}

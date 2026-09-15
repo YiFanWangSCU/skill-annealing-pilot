@@ -1,0 +1,12 @@
+{
+  "experiment_id": "rule-exposure-synthetic-pilot-20260915",
+  "status": "planned",
+  "claim_id": "RULE-EXPOSURE-ADAPTATION",
+  "claim_status": "planned",
+  "protocol": "docs/rule_exposure_protocol.md",
+  "config": "configs/rule_exposure_pilot.json",
+  "entry": "scripts/rule_exposure.py",
+  "scientific_results": null,
+  "historical_claims_changed": false,
+  "scope": "single-seed synthetic structured-fact exploration; no novelty or deployment superiority established"
+}

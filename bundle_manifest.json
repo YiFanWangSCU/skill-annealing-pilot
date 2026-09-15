@@ -1,0 +1,231 @@
+{
+  "contains_model_weights": false,
+  "contains_real_datasets": false,
+  "files": {
+    "AGENTS.md": {
+      "bytes": 1794,
+      "sha256": "aa292fd966a6a495a5819633e5de2b50f77a39a93620ee9909887d5c33021c31"
+    },
+    "CLAUDE.md": {
+      "bytes": 3182,
+      "sha256": "e21ac990cff27eaf51c072e8505b24256ad12ce5e6d144b5876d6d8b764df3c4"
+    },
+    "README.md": {
+      "bytes": 2347,
+      "sha256": "e978bc5707e78a0d1750cf75b530094d547233dad053ab8b0f8eb84b915a3485"
+    },
+    "RUN_EXPERIMENT.md": {
+      "bytes": 6567,
+      "sha256": "6fa070cefc3b83516d2cdca26cdb563c4b31b171815f2bdd11b13207d4514c90"
+    },
+    "SERVER_START.md": {
+      "bytes": 1720,
+      "sha256": "56b40d186be1efa3301c72288062fab6c842588eec0e61243f9c45f36742f7a2"
+    },
+    "START_HERE.md": {
+      "bytes": 3963,
+      "sha256": "a449d62d5751a557eb65f2c91b9c35747c38420515d470123e389b863643ada2"
+    },
+    "configs/local_bundle.json": {
+      "bytes": 1519,
+      "sha256": "ed6778ad2ecacaa36a9d342948e1a0e8a019638234f1267d2892539c116ee16f"
+    },
+    "configs/local_cpu.json": {
+      "bytes": 62,
+      "sha256": "d0a7395c8a79cbffc6f0c426d6e00ff56a8513d31d9b37edc82be027c2853558"
+    },
+    "configs/rule_exposure_pilot.json": {
+      "bytes": 465,
+      "sha256": "9222ae94c0e7a681f90fb234a6c671c975aace4de294db7b2bf561cde786523d"
+    },
+    "configs/server_bundle.json": {
+      "bytes": 2309,
+      "sha256": "baa33a58932ec4e3abebfa88e9eb78d18ec2ab9efca9d23400878ec41d911bee"
+    },
+    "configs/server_requirements.txt": {
+      "bytes": 308,
+      "sha256": "338fcd2aeb363602eecca30c913aa71d7863cf90a89268b9da1d9d51d053c0f3"
+    },
+    "docs/code_layout.md": {
+      "bytes": 1880,
+      "sha256": "9c017c020dddef7e3beda133de285c7a51e38742332e2674df2c6bd148b909ff"
+    },
+    "docs/company_handoff.md": {
+      "bytes": 3329,
+      "sha256": "6555e83524bbf708258ae0758173592ac52b8fc154d10d404d57395bca09809c"
+    },
+    "docs/pilot_registry.json": {
+      "bytes": 475,
+      "sha256": "2fcd369969ecbe47d8bb42a65024d60c527fc68be28bb90a5aa178ec9ca45d42"
+    },
+    "docs/remaining_experiments.md": {
+      "bytes": 1292,
+      "sha256": "584c3adbd7236b147cc941a103d60f789e4cf99b7018ab113596a0cec18ae96a"
+    },
+    "docs/rule_exposure_protocol.md": {
+      "bytes": 5620,
+      "sha256": "7614f47a9abe0b1a658e77a1c0b33c7795ebeced423ce6cc6b68947e236a9f5d"
+    },
+    "pyproject.toml": {
+      "bytes": 324,
+      "sha256": "1c10500a2b1bd97e75ce2016099c6caa52da296cea226b1e6ea7a828e2db24a5"
+    },
+    "scripts/build_local_bundle.py": {
+      "bytes": 6969,
+      "sha256": "8d7445d9c8bd0ab19abdcbcb1af69eebbb1bbf7a3d7e5fce22e7bd8caf053177"
+    },
+    "scripts/export_ms_swift_data.py": {
+      "bytes": 2047,
+      "sha256": "146d0149bc5c0fe670abdaa5177744f931209f564fa95ef246c74a0ff4728aaf"
+    },
+    "scripts/generate_mvp_data.py": {
+      "bytes": 109,
+      "sha256": "dc001ee1b8b41b31f32bf02427313e8e05cac5d3e4e152b39a4b7f55c1e86bc1"
+    },
+    "scripts/local_cpu_smoke.py": {
+      "bytes": 3356,
+      "sha256": "5923713fe191445603877efeaf31eb23ff3a6afa5d18b08c65101be6543e4521"
+    },
+    "scripts/merge_abcd_swift_predictions.py": {
+      "bytes": 4226,
+      "sha256": "582b7f96f816af8c24698b5353cbeb9e60f4605616f8bc9069f0231ca2fd661d"
+    },
+    "scripts/rule_exposure.py": {
+      "bytes": 12389,
+      "sha256": "d20f04879ae774d05f1e99a53fdd2eae8186aa2ce9ef8d7c6239b409600a8317"
+    },
+    "scripts/rule_exposure_callback.py": {
+      "bytes": 2897,
+      "sha256": "056f3c6a46884bc1e78d46db51a6e28dc92384eab049f4b78edcbf72d260e360"
+    },
+    "scripts/rule_exposure_worker.py": {
+      "bytes": 7026,
+      "sha256": "5d2d558f64d5a762f5f113c4893fe4c8e438999b63a60306d669cefe576b3eb3"
+    },
+    "scripts/server_smoke.py": {
+      "bytes": 6585,
+      "sha256": "53ff035afea45ea953a536f6d39c71db2b1266e3b66d908ee1a16ef7535323b2"
+    },
+    "skill_annealing/__init__.py": {
+      "bytes": 78,
+      "sha256": "81c754e88d9c611cb298ba21c6689a073eb2b7321eae0f482e886dcb8de6d00f"
+    },
+    "skill_annealing/abcd_posttraining/__init__.py": {
+      "bytes": 222,
+      "sha256": "d735672ceb4f7d900cd37b963932e1ab02ea355a33395ef8efd89f628b280fc3"
+    },
+    "skill_annealing/abcd_posttraining/baselines.py": {
+      "bytes": 3845,
+      "sha256": "21bc43cd700546fe876f44cf714537071b7abb1af2cc3522a204430b51fe139b"
+    },
+    "skill_annealing/abcd_posttraining/builder.py": {
+      "bytes": 11216,
+      "sha256": "c1772ef33d04a297487e5cc83630036b92a6a70c85a6f7e7439a9a3ce37074cd"
+    },
+    "skill_annealing/abcd_posttraining/constants.py": {
+      "bytes": 2536,
+      "sha256": "7dcdd635d483b4e9c0b80b82e60ce39fcb2f66dabceee13efcf7253094c5edac"
+    },
+    "skill_annealing/abcd_posttraining/dataset.py": {
+      "bytes": 13731,
+      "sha256": "67e79e6276974b6c9c08622984466bdf4b36a64507b032ea599ce444d9707d0e"
+    },
+    "skill_annealing/abcd_posttraining/evaluator.py": {
+      "bytes": 33357,
+      "sha256": "11b46794fa49f4f3d9d9f36f56d50f95011b05a6bb69ce6703782a0038917c40"
+    },
+    "skill_annealing/abcd_posttraining/prompts.py": {
+      "bytes": 6351,
+      "sha256": "e12961eacee8328a2d44a8e2eef8447620f6a4fec9031aa96126b42df38a59ce"
+    },
+    "skill_annealing/abcd_posttraining/rule_spec.py": {
+      "bytes": 12307,
+      "sha256": "7e8d21ecb9c4f75d642bce3425a5e6af6cac3b47edbcab19970c49bc135e27c3"
+    },
+    "skill_annealing/abcd_posttraining/source.py": {
+      "bytes": 9030,
+      "sha256": "881f1ceb1dad41d65a53214f9ccdaaa2dc6ae4b2beead5d6aa5e7d9dcad2507b"
+    },
+    "skill_annealing/abcd_posttraining/validator.py": {
+      "bytes": 29519,
+      "sha256": "c0dfa94b37b69d362ae611502e8a767288730ccae7bd0422a2ee757efcafffbe"
+    },
+    "skill_annealing/refund_decision/__init__.py": {
+      "bytes": 93,
+      "sha256": "b58cf00eb3694e2719bf3c616978eecdfffd6999a14e6999d619f15c4a9538fb"
+    },
+    "skill_annealing/refund_decision/data_generator.py": {
+      "bytes": 13192,
+      "sha256": "91775dc5dfcad781eebe4c22c20b1e28fbc67b14976de6bcf18c5f2b2d2c5b74"
+    },
+    "skill_annealing/refund_decision/evaluator.py": {
+      "bytes": 10641,
+      "sha256": "687cf96685a087c498f13ae1cb3009c08577201426cdb5f2604eccf499d6dc1a"
+    },
+    "skill_annealing/refund_decision/prompt_builder.py": {
+      "bytes": 4410,
+      "sha256": "790c4fb25bc60d969a5f848b66845a04aa2fef9f372b74803d6f76006280986d"
+    },
+    "skill_annealing/refund_decision/rule_engine.py": {
+      "bytes": 9750,
+      "sha256": "b0e38e4564773e61a3c68accab337884eb835fcebbadf5a35ca9aa16b9a4ea9f"
+    },
+    "skill_annealing/refund_decision/schema.py": {
+      "bytes": 3044,
+      "sha256": "92f9441525c66cfdad22dae80ce804b0f81c6c0bbb887efdd82c52082f90393b"
+    },
+    "skill_annealing/refund_decision/skill.py": {
+      "bytes": 3771,
+      "sha256": "5a82eb6a11080541c9906079b460534904798e94c327c521b51a14079c45bd17"
+    },
+    "skill_annealing/rule_exposure/__init__.py": {
+      "bytes": 81,
+      "sha256": "6f5b800fdc4e2258f6b8e54fc1777c9301a121b5ce627f58f4650ee735704fd7"
+    },
+    "skill_annealing/rule_exposure/analysis.py": {
+      "bytes": 9864,
+      "sha256": "3344453770341fdff595db243315cd5a83c4f33a77a8b27ea41e3901bea59371"
+    },
+    "skill_annealing/rule_exposure/data.py": {
+      "bytes": 11665,
+      "sha256": "b3607090dc976b5ecb436ad21f88c50b8f18b6a13d60a6aea2ea69e0bee8acc3"
+    },
+    "skill_annealing/rule_exposure/runtime.py": {
+      "bytes": 9090,
+      "sha256": "8878642318bb3b8266ae687f23f83448abd9e026ce077b164db2e633f1df77e0"
+    },
+    "tests/test_abcd_posttraining.py": {
+      "bytes": 25716,
+      "sha256": "e454ee37ac3946b8521d3143831b5782f757652bc15a13f8fa0e7fd71544abad"
+    },
+    "tests/test_abcd_rule_spec.py": {
+      "bytes": 9796,
+      "sha256": "07b32ae5bccaf283d3f837a51bc9607ee4ee065e63f1d5fbd1e480b6b2439074"
+    },
+    "tests/test_local_cpu_delivery.py": {
+      "bytes": 2882,
+      "sha256": "30ff6f45e7b8fa8f1d0244497842eddb4b7135fbbc336120ee74bdb29f292ed4"
+    },
+    "tests/test_refund_decision_mvp.py": {
+      "bytes": 5301,
+      "sha256": "eff2f259c4bfcca8f3675f1bbe51f09578093348188cc8c0acbb52a3bbd18cab"
+    },
+    "tests/test_rule_exposure.py": {
+      "bytes": 16836,
+      "sha256": "894065606f3ceac1f4cc289e331ccaad64ae8f2316841cf79ce63c24e81b675f"
+    },
+    "tests/test_server_smoke.py": {
+      "bytes": 4531,
+      "sha256": "540bc1c452b50eab7c8ab7c5f7177a3416fd128afab449ac6b7c25efd06891b7"
+    }
+  },
+  "provenance": {
+    "head": null,
+    "source": "standalone_files",
+    "uncommitted_files_included": null
+  },
+  "schema_version": 1,
+  "scope": "bounded_rule_exposure_pilot_full_data_train_infer_analysis_not_confirmatory_results",
+  "secret_pattern_scan": "passed_not_a_security_guarantee",
+  "training_launcher_included": true
+}

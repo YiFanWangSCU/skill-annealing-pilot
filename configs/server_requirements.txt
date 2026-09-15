@@ -1,0 +1,10 @@
+# Install a CUDA-compatible PyTorch + matching torchvision in an isolated environment.
+# Main version pins, not a complete resolved lockfile or certified A800 environment.
+ms-swift==4.1.1
+transformers==5.5.4
+peft==0.18.1
+accelerate==1.13.0
+safetensors==0.7.0
+qwen-vl-utils==0.0.14
+decord==0.6.0
+pytest>=8,<9
